@@ -1,0 +1,1 @@
+<?= $this->extend('layout/recover-password'); ?>
