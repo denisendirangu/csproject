@@ -1,0 +1,1 @@
+<?= $this->extend('auth/recover-password'); ?>

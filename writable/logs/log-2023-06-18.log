@@ -1,0 +1,353 @@
+INFO - 2023-06-18 11:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 11:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 11:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 12:24:00 --> Call to undefined function display_error()
+in APPPATH\Views\layout\d-register.php on line 96.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/d-register', [], true)
+ 4 APPPATH\Controllers\UserController.php(102): view('layout/d-register', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->do_register()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\csproject\\csproject\\public\\index.php')
+INFO - 2023-06-18 12:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 12:29:47 --> Call to undefined function display_error()
+in APPPATH\Views\layout\d-register.php on line 97.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/d-register', [], true)
+ 4 APPPATH\Controllers\UserController.php(102): view('layout/d-register', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->do_register()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\csproject\\csproject\\public\\index.php')
+INFO - 2023-06-18 12:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 12:30:50 --> Array to string conversion
+in APPPATH\Views\layout\d-register.php on line 97.
+ 1 APPPATH\Views\layout\d-register.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\csproject\\csproject\\app\\Views\\layout\\d-register.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\csproject\\csproject\\app\\Views\\layout\\d-register.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/d-register', [], true)
+ 5 APPPATH\Controllers\UserController.php(102): view('layout/d-register', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->do_register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\csproject\\csproject\\public\\index.php')
+INFO - 2023-06-18 12:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 12:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 13:18:56 --> Call to undefined function display_error()
+in APPPATH\Views\layout\d-register.php on line 106.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/d-register', [], true)
+ 4 APPPATH\Controllers\UserController.php(101): view('layout/d-register', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->do_register()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\csproject\\csproject\\public\\index.php')
+INFO - 2023-06-18 13:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 13:21:58 --> Call to undefined function display_errors()
+in APPPATH\Views\layout\d-register.php on line 106.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/d-register', [], true)
+ 4 APPPATH\Controllers\UserController.php(101): view('layout/d-register', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->do_register()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\csproject\\csproject\\public\\index.php')
+INFO - 2023-06-18 13:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 13:26:35 --> Call to undefined function display_errors()
+in APPPATH\Views\layout\d-register.php on line 106.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/d-register', [], true)
+ 4 APPPATH\Controllers\UserController.php(99): view('layout/d-register', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->do_register()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\csproject\\csproject\\public\\index.php')
+INFO - 2023-06-18 13:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 13:29:34 --> Call to undefined function display_errors()
+in APPPATH\Views\layout\d-register.php on line 106.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/d-register', [], true)
+ 4 APPPATH\Controllers\UserController.php(99): view('layout/d-register', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->do_register()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\csproject\\csproject\\public\\index.php')
+INFO - 2023-06-18 13:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-18 13:36:09 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\csproject\csproject\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\csproject\csproject\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('p:localhost', 'root', Object(SensitiveParameterValue), 'recipe_db', 3310, '', 0)
+#1 C:\xampp\htdocs\csproject\csproject\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#2 C:\xampp\htdocs\csproject\csproject\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\csproject\csproject\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\csproject\csproject\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\csproject\csproject\system\Validation\Validation.php(321): CodeIgniter\Validation\StrictRules\Rules->is_unique('james@eee.com', 'email', Array, NULL, 'email')
+#6 C:\xampp\htdocs\csproject\csproject\system\Validation\Validation.php(179): CodeIgniter\Validation\Validation->processRules('email', 'email', 'james@eee.com', Array, Array)
+#7 C:\xampp\htdocs\csproject\csproject\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\csproject\csproject\app\Controllers\UserController.php(64): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\csproject\csproject\system\CodeIgniter.php(934): App\Controllers\UserController->do_register()
+#10 C:\xampp\htdocs\csproject\csproject\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\xampp\htdocs\csproject\csproject\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\csproject\csproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\csproject\csproject\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\csproject\csproject\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\csproject\csproject\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#1 C:\xampp\htdocs\csproject\csproject\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\csproject\csproject\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\csproject\csproject\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\csproject\csproject\system\Validation\Validation.php(321): CodeIgniter\Validation\StrictRules\Rules->is_unique('james@eee.com', 'email', Array, NULL, 'email')
+#5 C:\xampp\htdocs\csproject\csproject\system\Validation\Validation.php(179): CodeIgniter\Validation\Validation->processRules('email', 'email', 'james@eee.com', Array, Array)
+#6 C:\xampp\htdocs\csproject\csproject\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\csproject\csproject\app\Controllers\UserController.php(64): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\csproject\csproject\system\CodeIgniter.php(934): App\Controllers\UserController->do_register()
+#9 C:\xampp\htdocs\csproject\csproject\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 C:\xampp\htdocs\csproject\csproject\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\csproject\csproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\csproject\csproject\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-06-18 13:36:09 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `tbl_user`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\Validation\Validation.php(321): CodeIgniter\Validation\StrictRules\Rules->is_unique('james@eee.com', 'email', [...], null, 'email')
+ 5 SYSTEMPATH\Validation\Validation.php(179): CodeIgniter\Validation\Validation->processRules('email', 'email', 'james@eee.com', [...], [...])
+ 6 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 7 APPPATH\Controllers\UserController.php(64): CodeIgniter\Controller->validate([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->do_register()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\csproject\\csproject\\public\\index.php')
+INFO - 2023-06-18 13:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 13:36:25 --> Call to undefined function display_errors()
+in APPPATH\Views\layout\d-register.php on line 106.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/d-register', [], true)
+ 4 APPPATH\Controllers\UserController.php(99): view('layout/d-register', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->do_register()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\csproject\\csproject\\public\\index.php')
+INFO - 2023-06-18 13:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 13:37:13 --> Call to undefined function display_error()
+in APPPATH\Views\layout\d-register.php on line 106.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/d-register', [], true)
+ 4 APPPATH\Controllers\UserController.php(99): view('layout/d-register', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->do_register()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\csproject\\csproject\\public\\index.php')
+INFO - 2023-06-18 13:37:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 13:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 19:19:40 --> "email" is not a valid Validation template.
+in SYSTEMPATH\Helpers\form_helper.php on line 725.
+ 1 SYSTEMPATH\Helpers\form_helper.php(725): CodeIgniter\Validation\Exceptions\ValidationException::forInvalidTemplate('email')
+ 2 APPPATH\Views\layout\d-login.php(104): validation_list_errors('email')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\csproject\\csproject\\app\\Views\\layout\\d-login.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('layout/d-login', [], true)
+ 6 APPPATH\Controllers\UserController.php(63): view('layout/d-login', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->do_login()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\csproject\\csproject\\public\\index.php')
+INFO - 2023-06-18 19:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 19:19:42 --> "email" is not a valid Validation template.
+in SYSTEMPATH\Helpers\form_helper.php on line 725.
+ 1 SYSTEMPATH\Helpers\form_helper.php(725): CodeIgniter\Validation\Exceptions\ValidationException::forInvalidTemplate('email')
+ 2 APPPATH\Views\layout\d-login.php(104): validation_list_errors('email')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\csproject\\csproject\\app\\Views\\layout\\d-login.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/d-login', [], true)
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/login', [], true)
+ 7 APPPATH\Controllers\UserController.php(36): view('dashboard/login', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\csproject\\csproject\\public\\index.php')
+INFO - 2023-06-18 19:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 19:19:48 --> "email" is not a valid Validation template.
+in SYSTEMPATH\Helpers\form_helper.php on line 725.
+ 1 SYSTEMPATH\Helpers\form_helper.php(725): CodeIgniter\Validation\Exceptions\ValidationException::forInvalidTemplate('email')
+ 2 APPPATH\Views\layout\d-login.php(104): validation_list_errors('email')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\csproject\\csproject\\app\\Views\\layout\\d-login.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/d-login', [], true)
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/login', [], true)
+ 7 APPPATH\Controllers\UserController.php(36): view('dashboard/login', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\csproject\\csproject\\public\\index.php')
+INFO - 2023-06-18 19:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 19:19:52 --> "email" is not a valid Validation template.
+in SYSTEMPATH\Helpers\form_helper.php on line 725.
+ 1 SYSTEMPATH\Helpers\form_helper.php(725): CodeIgniter\Validation\Exceptions\ValidationException::forInvalidTemplate('email')
+ 2 APPPATH\Views\layout\d-login.php(104): validation_list_errors('email')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\csproject\\csproject\\app\\Views\\layout\\d-login.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/d-login', [], true)
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/login', [], true)
+ 7 APPPATH\Controllers\UserController.php(36): view('dashboard/login', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\csproject\\csproject\\public\\index.php')
+INFO - 2023-06-18 19:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 19:19:55 --> "email" is not a valid Validation template.
+in SYSTEMPATH\Helpers\form_helper.php on line 725.
+ 1 SYSTEMPATH\Helpers\form_helper.php(725): CodeIgniter\Validation\Exceptions\ValidationException::forInvalidTemplate('email')
+ 2 APPPATH\Views\layout\d-login.php(104): validation_list_errors('email')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\csproject\\csproject\\app\\Views\\layout\\d-login.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/d-login', [], true)
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/login', [], true)
+ 7 APPPATH\Controllers\UserController.php(36): view('dashboard/login', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\csproject\\csproject\\public\\index.php')
+INFO - 2023-06-18 19:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 19:20:02 --> "email" is not a valid Validation template.
+in SYSTEMPATH\Helpers\form_helper.php on line 725.
+ 1 SYSTEMPATH\Helpers\form_helper.php(725): CodeIgniter\Validation\Exceptions\ValidationException::forInvalidTemplate('email')
+ 2 APPPATH\Views\layout\d-login.php(104): validation_list_errors('email')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\csproject\\csproject\\app\\Views\\layout\\d-login.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/d-login', [], true)
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/login', [], true)
+ 7 APPPATH\Controllers\UserController.php(36): view('dashboard/login', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\csproject\\csproject\\public\\index.php')
+INFO - 2023-06-18 19:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 19:21:45 --> "email" is not a valid Validation template.
+in SYSTEMPATH\Helpers\form_helper.php on line 725.
+ 1 SYSTEMPATH\Helpers\form_helper.php(725): CodeIgniter\Validation\Exceptions\ValidationException::forInvalidTemplate('email')
+ 2 APPPATH\Views\layout\d-login.php(104): validation_list_errors('email')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\csproject\\csproject\\app\\Views\\layout\\d-login.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/d-login', [], true)
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/login', [], true)
+ 7 APPPATH\Controllers\UserController.php(36): view('dashboard/login', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\csproject\\csproject\\public\\index.php')
+INFO - 2023-06-18 19:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-18 19:21:51 --> "email" is not a valid Validation template.
+in SYSTEMPATH\Helpers\form_helper.php on line 725.
+ 1 SYSTEMPATH\Helpers\form_helper.php(725): CodeIgniter\Validation\Exceptions\ValidationException::forInvalidTemplate('email')
+ 2 APPPATH\Views\layout\d-login.php(104): validation_list_errors('email')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\csproject\\csproject\\app\\Views\\layout\\d-login.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/d-login', [], true)
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/login', [], true)
+ 7 APPPATH\Controllers\UserController.php(36): view('dashboard/login', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\csproject\\csproject\\public\\index.php')
+INFO - 2023-06-18 19:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 19:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 20:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 20:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 20:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 20:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 20:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 20:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 20:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 20:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 20:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 20:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 20:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 20:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 20:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 20:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 20:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 20:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 20:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 20:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 20:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 20:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-18 20:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

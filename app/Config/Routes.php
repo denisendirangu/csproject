@@ -29,12 +29,14 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'UserController::index');
+$routes->get('/', 'Dashboard::index');
+$routes->get('userhome', 'Dashboard::userHome');
+$routes->get('admin', 'Dashboard::adminPage');
+
+//$routes->get('home','Dashboard::index');
 
 
-$routes->group("user",function($routes){
-    $routes->get('home','UserController::index',['as'=>'user.home']);
-    $routes->get('profile','UserController::index',['as'=>'profile.home']);
+$routes->group('user', static function($routes){
     $routes->get('login','UserController::login',['as'=>'user.login']);
     $routes->get('register','UserController::register',['as'=>'user.register']);
     $routes->get('forgotpass','UserController::forgotpass',['as'=>'user.forgotpass']);
@@ -42,8 +44,11 @@ $routes->group("user",function($routes){
     $routes->post('forgotpass','UserController::recoverpass',['as' => 'user.forgotpass']);
 });
 
+$routes->get('login','UserController::login');
 $routes->post('register','UserController::do_register');
 $routes->post('login','UserController::do_login');
+
+
 
 /*
 

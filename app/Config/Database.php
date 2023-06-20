@@ -41,7 +41,7 @@ class Database extends Config
         'compress' => false,
         'strictOn' => false,
         'failover' => [],
-        'port'     => 3306,
+        'port'     => 3310,
     ];
     /**
      * This database connection is used when
@@ -50,7 +50,7 @@ class Database extends Config
     public array $tests = [
         'DSN'         => '',
         'hostname'    => '127.0.0.1',
-        'username'    => '',
+        'username'    => 'root',
         'password'    => '',
         'database'    => ':memory:',
         'DBDriver'    => 'SQLite3',
@@ -64,7 +64,7 @@ class Database extends Config
         'compress'    => false,
         'strictOn'    => false,
         'failover'    => [],
-        'port'        => 3306,
+        'port'        => 3310,
         'foreignKeys' => true,
         'busyTimeout' => 1000,
     ];
